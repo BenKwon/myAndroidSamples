@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mycaculation">
+    package="com.example.myAndroidPractice">
 
     <application
         android:allowBackup="true"
@@ -9,26 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FadingAnimations"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".relatvieLayout_1" />
-        <activity android:name=".Count" />
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.example.myAndroidPractice.FadingAnimations"></activity>
+        <activity android:name="com.example.myAndroidPractice.LoginActivity" />
+        <activity android:name="com.example.myAndroidPractice.relatvieLayout_1" />
+        <activity android:name="com.example.myAndroidPractice.Count" />
+        <activity android:name="com.example.myAndroidPractice.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.myAndroidPractice.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".caculator" />
-        <activity android:name=".imageChange" />
+        <activity android:name="com.example.myAndroidPractice.caculator" />
+        <activity android:name="com.example.myAndroidPractice.imageChange" />
     </application>
 
 </manifest>

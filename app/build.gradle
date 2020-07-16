@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.mycaculation"
+        applicationId "com.example.myAndroidPractice"
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1

@@ -1,8 +1,7 @@
-package com.example.mycaculation;
+package com.example.myAndroidPractice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;

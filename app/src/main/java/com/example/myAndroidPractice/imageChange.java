@@ -1,15 +1,11 @@
-package com.example.mycaculation;
+package com.example.myAndroidPractice;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-
-import butterknife.BindView;
-import butterknife.OnClick;
 
 public class imageChange  extends AppCompatActivity {
     int flag = 1 ;

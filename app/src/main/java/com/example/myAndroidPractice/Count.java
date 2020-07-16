@@ -1,15 +1,12 @@
-package com.example.mycaculation;
+package com.example.myAndroidPractice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 import butterknife.BindView;
 

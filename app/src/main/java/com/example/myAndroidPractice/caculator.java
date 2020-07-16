@@ -1,4 +1,4 @@
-package com.example.mycaculation;
+package com.example.myAndroidPractice;
 
 
 import android.os.Bundle;

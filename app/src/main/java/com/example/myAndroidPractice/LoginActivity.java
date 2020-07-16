@@ -1,4 +1,4 @@
-package com.example.mycaculation;
+package com.example.myAndroidPractice;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
