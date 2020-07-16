@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linear0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:onClick="rock_clicked"
+                android:text="Button" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="308dp"
+        android:layout_marginBottom="100dp"
+        android:layout_weight="3"
+        android:background="@drawable/board">
+
+        <TableRow
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/row1_1"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/red" />
+
+            <ImageView
+                android:id="@+id/row1_2"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/red" />
+
+            <ImageView
+                android:id="@+id/row1_3"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/red" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="40dp">
+            <ImageView
+                android:id="@+id/row2_1"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/red" />
+            <ImageView
+                android:id="@+id/row2_2"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/red" />
+            <ImageView
+                android:id="@+id/row2_3"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/red" />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="50dp">
+            <ImageView
+                android:id="@+id/row3_1"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/red" />
+            <ImageView
+                android:id="@+id/row3_2"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/red" />
+            <ImageView
+                android:id="@+id/row3_3"
+                android:layout_width="95dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/red" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent);
                     break;
                 case R.id.btn7:
-                    intent = new Intent(this, OtherAnimation.class);
+                    intent = new Intent(this, ConnectGame.class);
                     startActivity(intent);
                     break;
             }
@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn5 = findViewById(R.id.btn5);
         Button btn6 = findViewById(R.id.btn6);
         Button btn7 = findViewById(R.id.btn7);
+        Button btn8 = findViewById(R.id.btn8);
 
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn5.setOnClickListener(this);
         btn6.setOnClickListener(this);
         btn7.setOnClickListener(this);
+        btn8.setOnClickListener(this);
 
     }
 }
