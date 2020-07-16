@@ -17,6 +17,7 @@
             android:layout_height="439dp"
             android:padding="0dp"
             android:alpha="0"
+            android:onClick="fade_change"
             app:srcCompat="@drawable/bart" />
 
         <ImageView

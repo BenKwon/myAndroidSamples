@@ -9,26 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.myAndroidPractice.FadingAnimations"></activity>
-        <activity android:name="com.example.myAndroidPractice.LoginActivity" />
-        <activity android:name="com.example.myAndroidPractice.relatvieLayout_1" />
-        <activity android:name="com.example.myAndroidPractice.Count" />
-        <activity android:name="com.example.myAndroidPractice.SplashActivity">
+        <activity android:name=".OtherAnimation" />
+        <activity android:name=".FadingAnimations" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".relatvieLayout_1" />
+        <activity android:name=".Count" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myAndroidPractice.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myAndroidPractice.caculator" />
-        <activity android:name="com.example.myAndroidPractice.imageChange" />
+        <activity android:name=".caculator" />
+        <activity android:name=".imageChange" />
     </application>
 
 </manifest>

@@ -14,7 +14,13 @@ public class FadingAnimations extends AppCompatActivity {
         ImageView bart = (ImageView) findViewById(R.id.bart);
         ImageView homer = (ImageView) findViewById(R.id.homer);
         if(bart_turn == 1){
-
+            homer.animate().alpha(0).setDuration(2000).start();
+            bart.animate().alpha(1).setDuration(2000).start();
+            bart_turn = 0;
+        }else{
+            homer.animate().alpha(1).setDuration(2000).start();
+            bart.animate().alpha(0).setDuration(2000).start();
+            bart_turn = 1;
         }
 
 

@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     intent = new Intent(this, FadingAnimations.class);
                     startActivity(intent);
                     break;
+                case R.id.btn7:
+                    intent = new Intent(this, OtherAnimation.class);
+                    startActivity(intent);
+                    break;
             }
         }
     @Override
@@ -59,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn4 = findViewById(R.id.btn4);
         Button btn5 = findViewById(R.id.btn5);
         Button btn6 = findViewById(R.id.btn6);
+        Button btn7 = findViewById(R.id.btn7);
 
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
@@ -66,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn4.setOnClickListener(this);
         btn5.setOnClickListener(this);
         btn6.setOnClickListener(this);
+        btn7.setOnClickListener(this);
 
     }
 }
