@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent);
                     break;
                 case R.id.btn7:
+                    intent = new Intent(this, OtherAnimation.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn8:
                     intent = new Intent(this, ConnectGame.class);
                     startActivity(intent);
                     break;
