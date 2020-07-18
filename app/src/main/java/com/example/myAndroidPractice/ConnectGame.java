@@ -18,12 +18,14 @@ import butterknife.BindView;
 
 public class ConnectGame extends AppCompatActivity implements View.OnClickListener{
     String turn = "yellow";
+    int turn_nums = 0;
     int [][]board = {{0,0,0},
                      {0,0,0},
                      {0,0,0}}; //1 is yellow 2 is red, 0 is no stone on position
     int gaming_flag = 1; //게임 진행중인지 알려주는 플래그 Let player know whether they are playing game or not
     public boolean check_end(){
         int j = 2;
+
         if(board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != 0){
             Toast.makeText(this, "끝", Toast.LENGTH_SHORT).show();
             Button restart = findViewById(R.id.restart);
@@ -82,11 +84,20 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
                 return true;
             }
         }
+        if(turn_nums==9){
+            Toast.makeText(this, "끝", Toast.LENGTH_SHORT).show();
+            Button restart = findViewById(R.id.restart);
+            restart.setVisibility(View.VISIBLE);
+            TextView result = findViewById(R.id.result);
+            result.setText("무승부!!");
+            return true;
+        }
         return  false;
     }
 
     public void refresh_clicked(View v){
         gaming_flag = 1;
+        turn_nums=0;
         board = new int[][]{{0, 0, 0},
                 {0, 0, 0},
                 {0, 0, 0}};
@@ -111,11 +122,14 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
         row32.setTranslationY(-2000);
         row33.setTranslationY(-2000);
         restart.setVisibility(View.INVISIBLE);
+        TextView result = findViewById(R.id.result);
+        result.setText("");
     }
 
 
     public void onClick(View v){
         if(gaming_flag == 1) {
+            turn_nums++;
             switch (v.getId()) {
                 case (R.id.row1):
                     ImageView row11 = findViewById(R.id.row11);
