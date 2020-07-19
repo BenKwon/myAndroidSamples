@@ -6,6 +6,8 @@ import androidx.core.content.ContextCompat;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -14,6 +16,8 @@ import com.example.myAndroidPractice.CustomListAdapter;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import com.example.myAndroidPractice.Item;
+import com.kennyc.bottomsheet.BottomSheetMenuDialogFragment;
+
 public class CustomListActivity extends AppCompatActivity {
     private ListView ItemListView =null ;
     CustomListAdapter adapter;
@@ -28,7 +32,16 @@ public class CustomListActivity extends AppCompatActivity {
         item_lists = generateItemList();
         adapter = new CustomListAdapter(this, item_lists);
         custom.setAdapter(adapter);
-
+        custom.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+                new BottomSheetMenuDialogFragment.Builder(getApplicationContext())
+                        .setSheet(R.menu.bottomsheet)
+                        .setTitle("Sample")
+                        .show(getSupportFragmentManager());
+                return false;
+            }
+        });
         EditText editTextFilter = (EditText)findViewById(R.id.search_phone);
         editTextFilter.addTextChangedListener(new TextWatcher() {
             @Override
