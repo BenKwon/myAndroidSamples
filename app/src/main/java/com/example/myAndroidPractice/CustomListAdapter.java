@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -42,8 +43,13 @@ public class CustomListAdapter extends BaseAdapter {
             convertView = LayoutInflater.from(context).inflate(R.layout.layout_list_view_row_items,parent, false);
         }
         Item currentItem =(Item) getItem(position);
+        ImageView imageViewItemMsg = (ImageView) convertView.findViewById(R.id.msg);
+        ImageView imageViewItemCall = (ImageView) convertView.findViewById(R.id.call);
         TextView textViewItemName =(TextView) convertView.findViewById(R.id.text_view_item_name);
-        TextView textViewItemDescription = (TextView) convertView.findViewById(R.id.text_view_item_description);
+        TextView textViewItemDescription = (TextView) convertView.findViewById(R.id.text_view_item_phone);
+
+        imageViewItemMsg.setImageDrawable(currentItem.getMsgImage());
+        imageViewItemCall.setImageDrawable(currentItem.getCallImage());
         textViewItemName.setText(currentItem.getItemName());
         textViewItemDescription.setText(currentItem.getItemDescription());
         return convertView;

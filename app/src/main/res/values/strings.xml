@@ -10,20 +10,54 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="app_name">hanyang</string>
     <string-array name="items_name">
-        <item>MacBook Pro</item>
-        <item>Alienware</item>
-        <item>Sony play station 4</item>
-        <item>Xbox One</item>
-        <item>Google glass</item>
-        <item>Google Nexus 6</item>
+        <item>Kwon</item>
+        <item>Tim</item>
+        <item>Jerry</item>
+        <item>BEN</item>
+        <item>Smith</item>
+        <item>Cruise</item>
+        <item>Kwon</item>
+        <item>Tim</item>
+        <item>Jerry</item> <item>Kwon</item>
+        <item>Tim</item>
+        <item>Jerry</item>
+        <item>BEN</item>
+        <item>Smith</item>
+        <item>Cruise</item>
+        <item>BEN</item>
+        <item>Smith</item>
+        <item>Cruise</item> <item>Kwon</item>
+        <item>Tim</item>
+        <item>Jerry</item>
+        <item>BEN</item>
+        <item>Smith</item>
+        <item>Cruise</item>
     </string-array>
-    <string-array name="item_description">
-        <item>MacBook pro with new graphics and faster flash storage.</item>
-        <item>High performance computer gaming system.</item>
-        <item>PS4 console, the most immersive gaming experience ever.</item>
-        <item>Best games, multi-player and entertainment.</item>
-        <item>Optical head mounted display</item>
-        <item>Motorolla Nexus x</item>
+    <string-array name="item_phone">
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
+        <item>010-5891-9900</item>
     </string-array>
 </resources>
 

@@ -5,9 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.myAndroidPractice.CustomListActivity">
+
+    <EditText
+        android:id="@+id/search_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D8D4D4"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
     <ListView
         android:id="@+id/custom_list_view"
         android:layout_width="match_parent"
+        android:layout_below="@+id/search_phone"
         android:layout_height="match_parent"/>
 
 </RelativeLayout>
