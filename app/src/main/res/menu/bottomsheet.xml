@@ -5,18 +5,14 @@
         android:icon="@drawable/userman"
         android:title="Share" />
 
-    <item
-        android:id="@+id/upload"
-        android:icon="@drawable/edit"
-        android:title="Upload" />
 
     <item
-        android:id="@+id/copy"
+        android:id="@+id/edit"
         android:icon="@drawable/edit"
-        android:title="Copy" />
+        android:title="Edit" />
 
     <item
-        android:id="@+id/print"
+        android:id="@+id/trash"
         android:icon="@drawable/trash"
-        android:title="Print" />
+        android:title="Trash" />
 </menu>

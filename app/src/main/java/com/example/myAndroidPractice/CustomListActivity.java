@@ -3,6 +3,7 @@ package com.example.myAndroidPractice;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -32,12 +33,19 @@ public class CustomListActivity extends AppCompatActivity {
         item_lists = generateItemList();
         adapter = new CustomListAdapter(this, item_lists);
         custom.setAdapter(adapter);
+
         custom.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
+            public boolean onItemLongClick(AdapterView<?> adapterView, View view, int position, long l) {
+                Item item = (Item) adapterView.getItemAtPosition(position) ;
+
+                String titleStr = item.getItemName() ;
+                String descStr = item.getItemDescription() ;
+                Drawable callImage = item.getCallImage() ;
+                Drawable msgImage  = item.getCallImage() ;
                 new BottomSheetMenuDialogFragment.Builder(getApplicationContext())
                         .setSheet(R.menu.bottomsheet)
-                        .setTitle("Sample")
+                        .setTitle(titleStr + "     "  + descStr)
                         .show(getSupportFragmentManager());
                 return false;
             }
