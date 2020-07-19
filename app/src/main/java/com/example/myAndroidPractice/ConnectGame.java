@@ -32,11 +32,11 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
             restart.setVisibility(View.VISIBLE);
             if(turn=="yellow"){
                 TextView result = findViewById(R.id.result);
-                result.setText("red 승리 !!");
+                result.setText("red WIN !!");
             }
             else{
                 TextView result = findViewById(R.id.result);
-                result.setText("red 승리 !!");
+                result.setText("red WIN !!");
             }
             return true;
         }
@@ -46,11 +46,11 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
             restart.setVisibility(View.VISIBLE);
             if(turn=="yellow"){
                 TextView result = findViewById(R.id.result);
-                result.setText("red 승리 !!");
+                result.setText("red WIN !!");
             }
             else{
                 TextView result = findViewById(R.id.result);
-                result.setText("yellow 승리 !!");
+                result.setText("yellow WIN !!");
             }
             return true;
         }
@@ -61,11 +61,11 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
                 restart.setVisibility(View.VISIBLE);
                 if(turn=="yellow"){
                     TextView result = findViewById(R.id.result);
-                    result.setText("red 승리 !!");
+                    result.setText("red WIN !!");
                 }
                 else{
                     TextView result = findViewById(R.id.result);
-                    result.setText("yellow 승리 !!");
+                    result.setText("yellow WIN !!");
                 }
                 return true;
             }
@@ -75,11 +75,11 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
                 restart.setVisibility(View.VISIBLE);
                 if(turn=="yellow"){
                     TextView result = findViewById(R.id.result);
-                    result.setText("red 승리 !!");
+                    result.setText("red WIN !!");
                 }
                 else{
                     TextView result = findViewById(R.id.result);
-                    result.setText("yellow 승리 !!");
+                    result.setText("yellow WIN !!");
                 }
                 return true;
             }
@@ -89,7 +89,7 @@ public class ConnectGame extends AppCompatActivity implements View.OnClickListen
             Button restart = findViewById(R.id.restart);
             restart.setVisibility(View.VISIBLE);
             TextView result = findViewById(R.id.result);
-            result.setText("무승부!!");
+            result.setText("DRAW!!");
             return true;
         }
         return  false;

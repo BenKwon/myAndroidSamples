@@ -53,6 +53,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     intent = new Intent(this, ConnectGame.class);
                     startActivity(intent);
                     break;
+                case R.id.btn9:
+                    intent = new Intent(this, LifeCycleActivity.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn10:
+                    intent = new Intent(this, ListView1.class);
+                    startActivity(intent);
+                    break;
+                case R.id.btn11:
+                    intent = new Intent(this, CustomListActivity.class);
+                    startActivity(intent);
+                    break;
             }
         }
     @Override
@@ -69,6 +81,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btn6 = findViewById(R.id.btn6);
         Button btn7 = findViewById(R.id.btn7);
         Button btn8 = findViewById(R.id.btn8);
+        Button btn9 = findViewById(R.id.btn9);
+        Button btn10 = findViewById(R.id.btn10);
+        Button btn11 = findViewById(R.id.btn11);
 
         btn1.setOnClickListener(this);
         btn2.setOnClickListener(this);
@@ -78,6 +93,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn6.setOnClickListener(this);
         btn7.setOnClickListener(this);
         btn8.setOnClickListener(this);
+        btn9.setOnClickListener(this);
+        btn10.setOnClickListener(this);
+        btn11.setOnClickListener(this);
+
 
     }
 }

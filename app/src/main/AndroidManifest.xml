@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ConnectGame"></activity>
+        <activity android:name=".CustomListActivity"></activity>
+        <activity android:name=".ListView1" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".ConnectGame" />
         <activity android:name=".OtherAnimation" />
         <activity android:name=".FadingAnimations" />
         <activity android:name=".LoginActivity" />
