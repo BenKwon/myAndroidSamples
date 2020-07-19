@@ -18,7 +18,7 @@
         <item>Cruise</item>
         <item>Kwon</item>
         <item>Tim</item>
-        <item>Jerry</item> <item>Kwon</item>
+        <item>Jerry</item>
         <item>Tim</item>
         <item>Jerry</item>
         <item>BEN</item>
@@ -26,7 +26,7 @@
         <item>Cruise</item>
         <item>BEN</item>
         <item>Smith</item>
-        <item>Cruise</item> <item>Kwon</item>
+        <item>Cruise</item>
         <item>Tim</item>
         <item>Jerry</item>
         <item>BEN</item>
@@ -34,22 +34,22 @@
         <item>Cruise</item>
     </string-array>
     <string-array name="item_phone">
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
-        <item>010-5891-9900</item>
+        <item>010-5891-1234</item>
+        <item>010-5891-6778</item>
+        <item>010-5891-3213</item>
+        <item>010-5891-5155</item>
+        <item>010-5891-4134</item>
+        <item>010-5891-3414</item>
+        <item>010-5891-4314</item>
+        <item>010-5891-4134</item>
+        <item>010-5891-4314</item>
+        <item>010-5891-9661</item>
+        <item>010-5891-4314</item>
+        <item>010-5891-4133</item>
+        <item>010-5891-6786</item>
+        <item>010-5891-9595</item>
+        <item>010-5891-7654</item>
+        <item>010-5891-7779</item>
         <item>010-5891-9900</item>
         <item>010-5891-9900</item>
         <item>010-5891-9900</item>

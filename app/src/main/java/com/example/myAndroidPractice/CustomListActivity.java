@@ -55,7 +55,7 @@ public class CustomListActivity extends AppCompatActivity {
         else{
             for(int i = 0;i < generateItemList().size(); i++)
             {
-                if (generateItemList().get(i).getItemName().toLowerCase().contains(search_text))
+                if (generateItemList().get(i).getItemName().toLowerCase().contains(search_text.toLowerCase()))
                 {
                     item_lists.add(generateItemList().get(i));
                 }
